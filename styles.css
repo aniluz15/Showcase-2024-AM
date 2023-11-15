@@ -1,3 +1,9 @@
 .h-img1 {
-    width: 20vw; 
+    width: 20vw;
+    
+}
+
+:root {
+    --golden: EEB01F;
+    
 }
