@@ -1,9 +1,36 @@
+:root {
+    --golden: #EEB01F;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Themed dining banner(above the fold) under nav bar */
 .h-img1 {
     width: 20vw;
     
 }
 
-:root {
-    --golden: EEB01F;
-    
+
+
+
+
+/* Footer section */
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    background-color: #EEB01F;
+    border-style:solid;
+    border-color: #F8D042;
+}
+
+.footerall {
+
+}
+
+.copyright h3{
+    width: 17vw;
 }
