@@ -12,8 +12,21 @@ main {
     
 }
 
+.ryan {
+    width: 10vw;
+}
 
+.isaac {
+    width: 10vw;
+}
 
+.finn {
+    width: 10vw;
+}
+
+.kaiden {
+    width: 10vw;
+}
 
 
 /* Footer section */
@@ -33,4 +46,17 @@ main {
 
 .copyright h3{
     width: 17vw;
+}
+
+
+
+/* Meet the dino html page below */
+
+.mtd-img1 {
+    width: 30vw;
+}
+
+.mtd-img2 {
+    width: 30vw;
+
 }
