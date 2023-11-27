@@ -1,42 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inria+Serif&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inria+Serif:wght@300;400&family=Oswald&display=swap');
 :root {
     --golden: #EEB01F;
 }
-main {
-    display: flex;
-    flex-direction: row;
+body {
+    background-image: url(imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* Themed dining banner(above the fold) under nav bar */
-.h-img1 {
-    width: 20vw;
+.logo {
+    width: 25vw;
+}
+
+p {
+    font-size: large;
+    padding: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    color: white;
+    font-style: italic;
+    font-size: X-large;
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+h3 {
+    color: #FFFFFF;
     
 }
 
+button { 
+    background-color: #5C443A;
+    border-style: solid;
+    border-width: 0.3vw;
+    border-color: #EEB01F;
+    
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+
+/* .nav-main {
+    height: 10vh;
+    background-color: #EEB01F;
+    border-color: #F8D042;
+    border-style: solid;
+    border-width: 0.5vw;
+    font-size:large;
+} */
+
+
+/* Index page */
+
+
+/* Themed dining banner(above the fold) under nav bar */
+.h-img1 {
+    width: 25vw;
+    margin-left: 2vw;
+    
+}
+
+h2 {
+    color: white;
+}
+.p1.p2 {
+    font-style: white;
+}
+
+.dining-text1 {
+    
+    background-color: rgba(0,0,0, 0.5);
+
+}
+
+/* End of dining banner */
+.reviews  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1vw;
+    margin-top:1vw;
+}
+
+.review1 {
+    display: flex;
+    flex-direction: row;
+    width:23vw;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.review2 {
+    display: flex;
+    flex-direction: row;
+    width:23vw;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.review3 {
+    display: flex;
+    flex-direction: row;
+    width:23vw;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.review4 {
+    display: flex;
+    flex-direction: row;
+    width:23vw;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.text-review {
+    display: flex;
+    flex-direction: column;
+}
 .ryan {
-    width: 10vw;
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    border-radius: 50%;
+    width: 7vw;
+    height: 13vh;
 }
 
 .isaac {
-    width: 10vw;
+    border-radius: 50%;
+    width: 7vw;
+    height:13vh;
 }
 
 .finn {
-    width: 10vw;
+   border-radius: 50%;
+    width: 7vw;
+    height: 13vh;
 }
 
 .kaiden {
-    width: 10vw;
+    border-radius: 50%;
+    width: 7vw;
+    height: 13vh;
 }
-
 
 /* Footer section */
 
 .bottom {
     display: flex;
     justify-content: space-between;
-    padding: 1vw;
     background-color: #EEB01F;
     border-style:solid;
+    border-width: 0.5vw;
     border-color: #F8D042;
 }
 
