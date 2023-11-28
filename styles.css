@@ -60,16 +60,23 @@ a:visited {
 
 /* Themed dining banner(above the fold) under nav bar */
 .h-img1 {
-    width: 25vw;
-    margin-left: 2vw;
+    width: 50vw;
+    border-style: solid;
+    border-color: var(--golden);
+    border-width: 0.5vw;
+    border-radius: 0.5vw;
+    margin: 2vw;
     
 }
 
 h2 {
     color: white;
+    font-size: 40px;
 }
-.p1.p2 {
+.p1 .p2 {
     font-style: white;
+    font-size: 24px;
+    width: 24vw;
 }
 
 .dining-text1 {
@@ -77,6 +84,13 @@ h2 {
     background-color: rgba(0,0,0, 0.5);
 
 }
+
+.flex {
+   display: flex; 
+
+}
+
+
 
 /* End of dining banner */
 .reviews  {
