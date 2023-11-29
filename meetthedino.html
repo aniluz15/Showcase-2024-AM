@@ -8,41 +8,43 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<nav class="nav-main">
-    <a href="experiences.html">Reservations</a>
-    <a href="index.html">Experiences</a>
-    <img class="logo" src="imgs/logo.png" alt="Jurassic Park Main Logo">
-    <a href="about.html">About</a>
-    <a href="cart.html">Cart</a>
-</nav>
+
 
 <body>
+    <section class="nav-main">
+        <a class="nav0" href="experiences.html">Reservations</a>
+        <a class="nav0" href="index.html">Experiences</a>
+        <img class="logo" src="imgs/logo.png" alt="Jurassic Park Main Logo">
+        <a class="nav0" href="about.html">About</a>
+        <a class="nav0" href="cart.html">Cart</a>
+    </section>
+
     <section class="page-wrapper">
         <!-- Meet the dinos banner (above the fold) under the nav -->
-        <section class="mtd-dining">
-            <section class="mtdheading">
-                <h2>Meet the Dino's</h2>
-            </section>
-            <section>
-                <img class="mtd-img1" src="imgs/MTD1.jpg" alt="Above the Lights Photo 1. Man looking at dinosaur">
-            </section>
-            <section class="mtd-text1">
-                <p>
-                    An experience for all ages! Family-friendly dining experience available for breakfast or lunch.
-                    Explore from our four packages available to ensure your kids will never forget this incredible
-                    experience.
-                </p>
-                <p>
-                    American, Full Service, Dinner
-                </p>
-                <p>
-                    Senior and Military discounts available.
-                </p>
-                <p>
-                    Reservations for this experience can be made up to a week in advance.
-                </p>
-            </section>
-            <section>
+        <section class="dining-text1">
+            <section class="themed-dining flex">
+                <section>
+                    <img class="h-img3" src="imgs/MTD1.jpg" alt="Above the Lights Photo 1. Man looking at dinosaur">
+                </section>
+                <section class="flex1">
+                    <h2>Meet the Dino's</h2>
+                    <p>
+                        An experience for all ages! Family-friendly dining experience available for breakfast or lunch.
+                        Explore from our four packages available to ensure your kids will never forget this incredible
+                        experience.
+                    </p>
+                    <p>
+                        American, Full Service, Dinner
+                    </p>
+                    <p>
+                        Senior and Military discounts available.
+                    </p>
+                    <p>
+                        Reservations for this experience can be made up to a week in advance.
+                    </p>
+                </section>
+                <section>
+                </section>
                 <button>
                     <a href="reservations.html">Reserve Tickets</a>
                 </button>
@@ -122,16 +124,16 @@
         </section>
         <section class="packageoverlay">
             <h2>Meet the Dinos Package Selection</h2>
-            <p> Number of Adults 
+            <p> Number of Adults
                 <select name="Select" id="">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
-                </select> 
+                </select>
             </p>
-            <p> Number of Children 
+            <p> Number of Children
                 <select name="Select" id="">
                     <option value=""></option>
                     <option value="1">1</option>
@@ -139,41 +141,41 @@
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
-                </select> 
+                </select>
             </p>
             <p> Date
-                   <input type="date" name="" id="">
+                <input type="date" name="" id="">
             </p>
             <p> Times Available
-                    <input type="time" name="" id="">
+                <input type="time" name="" id="">
             </p>
             <button><a href="cart.html">Add to Cart</a></button>
             <button> <a href="meetthedino.html">Continue Shopping</a> </button>
         </section>
     </section>
 </body>
-    <!-- This is where the actual footer will begin with the direction links. -->
-    <footer>
-        <section class="bottom">
-    
-                <section class="footerall">
-                    <h3>Contact Us!</h3>
-                    <p>Address: 9320 Isla Rd, Costa Rica</p>
-                    <p>Phone Number: 392-593-4559</p>
-                </section>
-                <nav>
-                    <h3>About</h3>
-                    <a href="about.html">Staff Page</a>
-                </nav>
-                <nav>
-                    <h3>Experiences</h3>
-                    <a href="meetthedino.html">Meet the Dino's</a>
-                    <a href="abovethelights.html">Above the Lights</a>
-                </nav>
-                <nav class="copyright">
-                    <h3>Copyright - Anissa & Leo - Center for Advanced Research and Technology</h3>
-                </nav>
+<!-- This is where the actual footer will begin with the direction links. -->
+<footer>
+    <section class="bottom">
+
+        <section class="footerall">
+            <h3>Contact Us!</h3>
+            <p>Address: 9320 Isla Rd, Costa Rica</p>
+            <p>Phone Number: 392-593-4559</p>
         </section>
-    </footer>
+        <nav>
+            <h3>About</h3>
+            <a href="about.html">Staff Page</a>
+        </nav>
+        <nav>
+            <h3>Experiences</h3>
+            <a href="meetthedino.html">Meet the Dino's</a>
+            <a href="abovethelights.html">Above the Lights</a>
+        </nav>
+        <nav class="copyright">
+            <h3>Copyright - Anissa & Leo - Center for Advanced Research and Technology</h3>
+        </nav>
+    </section>
+</footer>
 
 </html>

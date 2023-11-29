@@ -10,11 +10,13 @@ body {
 }
 
 .logo {
+    position: absolute;
+    transform: translateY(26px);
     width: 25vw;
 }
 
 p {
-    font-size: large;
+
     padding: 0;
     color: white;
     font-family: 'Oswald', sans-serif;
@@ -29,13 +31,18 @@ h4 {
 
 h3 {
     color: #FFFFFF;
-    
+}
+
+body {
+    margin: 0;
 }
 
 button { 
+    width: 6vw;
+    height: 2vw;
     background-color: #5C443A;
     border-style: solid;
-    border-width: 0.3vw;
+    border-width: 0.19vw;
     border-color: #EEB01F;
     
 }
@@ -45,15 +52,23 @@ a:visited {
 }
 
 
-/* .nav-main {
+.nav-main {
+    display: flex;
     height: 10vh;
     background-color: #EEB01F;
     border-color: #F8D042;
     border-style: solid;
     border-width: 0.5vw;
     font-size:large;
-} */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.nav-pages {
+
+}
 
 /* Index page */
 
@@ -63,35 +78,104 @@ a:visited {
     width: 50vw;
     border-style: solid;
     border-color: var(--golden);
-    border-width: 0.5vw;
+    border-width: 0.3vw;
     border-radius: 0.5vw;
     margin: 2vw;
     
 }
 
+.h-img2 {
+    width: 22vw;
+    border-style: solid;
+    border-color: var(--golden);
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    margin: 1vw;
+}
 h2 {
     color: white;
     font-size: 40px;
 }
-.p1 .p2 {
+.p1 {
     font-style: white;
-    font-size: 24px;
-    width: 24vw;
+    font-size: 30px;
+    width: 39vw;
 }
 
+.p2 {
+    font-size: 25px;
+}
+
+.b-size {
+    font-size: 18px;
+}
 .dining-text1 {
     
     background-color: rgba(0,0,0, 0.5);
 
 }
 
+.h-img3 {
+    width: 35vw;
+    border-style: solid;
+    border-color: var(--golden);
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    margin: 1vw;
+}
 .flex {
    display: flex; 
 
 }
 
+.p3 {
+    display: flex;
+    flex-direction: column;
+}
 
+.nav0 {
+    font-size: x-large;
+    border-style: solid;
+    padding: 1vw;
+    border-color: ;
+}
 
+.half-dain {
+    background-color: rgba(0,0,0, 0.5);
+    width: 48%;
+    height: 24vw;
+}
+
+.abt-home {
+    background-color: rgba(0,0,0, 0.5);
+    width: 48%;
+}
+
+.half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.abt-heading {
+    margin: 1vw;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.button1 {
+    width: 6vw;
+}
 /* End of dining banner */
 .reviews  {
     display: flex;
@@ -208,10 +292,6 @@ h2 {
     width: 20vw;
 }
 
-.mtd-main {
-    width: 30vw;
-}
-
 /* Above the Lights HTML page CSS */
 .prehistoricimg {
     width: 20vw;
@@ -223,6 +303,23 @@ h2 {
 
 .nocturnalimg {
     width: 20vw;
+}
+
+.ul {
+ color: #FFFFFF;
+ 
+}
+
+.The-four-packages {
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Before-Ya-Go {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 1vw;
 }
 
 .heightimg {
