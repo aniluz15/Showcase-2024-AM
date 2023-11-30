@@ -47,6 +47,10 @@ button {
     
 }
 
+.button2 {
+    margin: 1vw;
+}
+
 a:visited {
     color: #FFFFFF;
 }
@@ -128,6 +132,60 @@ h2 {
 
 }
 
+.before {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0, 0.5);
+    margin: 0.5vw;
+    padding: 1vw;
+}
+
+h5,h6 {
+    color: white;
+}
+
+.packages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+    
+}
+
+.package1 {
+    background-color: rgba(0,0,0, 0.5);
+    width: 23%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+}
+
+.mtd-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.packageimg {
+    max-width: 20vw;
+    display: flex;
+    padding: 1vw;
+    margin: 0vw;
+}
+
+.mtd-img2 {
+    width: 45vw;
+    border-style: solid;
+    border-color: var(--golden);
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    margin: 1vw;
+}
+
 .p3 {
     display: flex;
     flex-direction: column;
@@ -140,7 +198,7 @@ h2 {
     border-color: ;
 }
 
-.half-dain {
+.half-main {
     background-color: rgba(0,0,0, 0.5);
     width: 48%;
     height: 24vw;
@@ -314,14 +372,33 @@ h2 {
     background-color: rgba(0,0,0, 0.5);
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    padding: 5vw;
 }
 
 .Before-Ya-Go {
     background-color: rgba(0,0,0, 0.5);
-    padding: 1vw;
+    padding: 0.5vw;
 }
 
 .heightimg {
     width: 20vw;
+}
+
+.li {
+    color: #FFFFFF;
+}
+
+
+.packageoverlay {
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.Prehistoricimg {
+    width: 25vw;
+    height: 25vw;
+}
+
+.mtd-who {
+    width: 25%;
+    height: 25%
 }
