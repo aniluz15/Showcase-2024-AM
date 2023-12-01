@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inria+Serif&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inria+Serif:wght@300;400&family=Oswald&display=swap');
+
 :root {
     --golden: #EEB01F;
 }
+
 body {
     background-image: url(imgs/background.jpg);
     background-repeat: no-repeat;
@@ -37,17 +39,18 @@ body {
     margin: 0;
 }
 
-button { 
+button {
     width: 6vw;
     height: 2vw;
     background-color: #5C443A;
     border-style: solid;
     border-width: 0.19vw;
     border-color: #EEB01F;
-    
+
 }
 
 .button2 {
+    color: white;
     margin: 1vw;
 }
 
@@ -63,16 +66,14 @@ a:visited {
     border-color: #F8D042;
     border-style: solid;
     border-width: 0.5vw;
-    font-size:large;
+    font-size: large;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.nav-pages {
-
-}
+.nav-pages {}
 
 /* Index page */
 
@@ -85,7 +86,7 @@ a:visited {
     border-width: 0.3vw;
     border-radius: 0.5vw;
     margin: 2vw;
-    
+
 }
 
 .h-img2 {
@@ -96,10 +97,12 @@ a:visited {
     border-radius: 0.5vw;
     margin: 1vw;
 }
+
 h2 {
     color: white;
     font-size: 40px;
 }
+
 .p1 {
     font-style: white;
     font-size: 30px;
@@ -113,9 +116,10 @@ h2 {
 .b-size {
     font-size: 18px;
 }
+
 .dining-text1 {
-    
-    background-color: rgba(0,0,0, 0.5);
+
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -127,20 +131,22 @@ h2 {
     border-radius: 0.5vw;
     margin: 1vw;
 }
+
 .flex {
-   display: flex; 
+    display: flex;
 
 }
 
 .before {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 0.5vw;
     padding: 1vw;
 }
 
-h5,h6 {
+h5,
+h6 {
     color: white;
 }
 
@@ -149,11 +155,11 @@ h5,h6 {
     flex-direction: row;
     justify-content: space-between;
     margin: 1vw;
-    
+
 }
 
 .package1 {
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 23%;
     display: flex;
     align-items: center;
@@ -171,10 +177,13 @@ li {
 }
 
 .packageimg {
+    border-style: solid;
+    border-color: #EEB01F;
+    border-width: 0.3vw;
     max-width: 20vw;
     display: flex;
-    padding: 1vw;
-    margin: 0vw;
+    border-radius: 1em;
+    margin: 1vw;
 }
 
 .mtd-img2 {
@@ -199,13 +208,13 @@ li {
 }
 
 .half-main {
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 48%;
     height: 24vw;
 }
 
 .abt-home {
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 48%;
 }
 
@@ -234,47 +243,49 @@ li {
 .button1 {
     width: 6vw;
 }
+
 /* End of dining banner */
-.reviews  {
+.reviews {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 1vw;
-    margin-top:1vw;
+    margin-top: 1vw;
 }
 
 .review1 {
     display: flex;
     flex-direction: row;
-    width:23vw;
-    background-color: rgba(0,0,0, 0.5);
+    width: 23vw;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .review2 {
     display: flex;
     flex-direction: row;
-    width:23vw;
-    background-color: rgba(0,0,0, 0.5);
+    width: 23vw;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .review3 {
     display: flex;
     flex-direction: row;
-    width:23vw;
-    background-color: rgba(0,0,0, 0.5);
+    width: 23vw;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .review4 {
     display: flex;
     flex-direction: row;
-    width:23vw;
-    background-color: rgba(0,0,0, 0.5);
+    width: 23vw;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .text-review {
     display: flex;
     flex-direction: column;
 }
+
 .ryan {
     display: flex;
     justify-content: center;
@@ -287,11 +298,11 @@ li {
 .isaac {
     border-radius: 50%;
     width: 7vw;
-    height:13vh;
+    height: 13vh;
 }
 
 .finn {
-   border-radius: 50%;
+    border-radius: 50%;
     width: 7vw;
     height: 13vh;
 }
@@ -308,16 +319,14 @@ li {
     display: flex;
     justify-content: space-between;
     background-color: #EEB01F;
-    border-style:solid;
+    border-style: solid;
     border-width: 0.5vw;
     border-color: #F8D042;
 }
 
-.footerall {
+.footerall {}
 
-}
-
-.copyright h3{
+.copyright h3 {
     width: 17vw;
 }
 
@@ -364,19 +373,18 @@ li {
 }
 
 .ul {
- color: #FFFFFF;
- 
+    color: #FFFFFF;
+
 }
 
 .The-four-packages {
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-flow: row wrap;
     padding: 5vw;
 }
 
 .Before-Ya-Go {
-    background-color: rgba(0,0,0, 0.5);
     padding: 0.5vw;
 }
 
@@ -389,8 +397,45 @@ li {
 }
 
 
-.packageoverlay {
-    background-color: rgba(0,0,0, 0.5);
+/* -----------------------------------
+OVERLAY STYLES  
+-------------------------------------*/
+
+#packageoverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 500ms ease-in-out;
+    opacity: 0;
+}
+
+#packageoverlay.visible {
+    display: flex;
+    opacity: 1;
+}
+
+#overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 50vw; */
+    /* height: 30vh; */
+    border: solid 2px #EEB01F;
+    background: rgba(35, 97, 84, 1);
+    padding: 5em;
+    border-radius: 2em;
+}
+
+#overlay-close1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 .Prehistoricimg {
@@ -401,4 +446,57 @@ li {
 .mtd-who {
     width: 25%;
     height: 25%
+}
+
+
+/* ---------------------------------------------
+ CART PAGE
+ ----------------------------------------------- */
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cart-background {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cost {
+    align-items: flex-end;
+    background-color: whitesmoke;
+    width: 40%;
+
+}
+
+.guest-dinos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.guest-above {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.per-ticket {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 5em;
+}
+
+.package-cost {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11em;
+}
+
+.cost-color {
+    color: black;
 }
