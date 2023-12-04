@@ -61,7 +61,7 @@ a:visited {
 
 .nav-main {
     display: flex;
-    height: 10vh;
+    height: 7vh;
     background-color: #EEB01F;
     border-color: #F8D042;
     border-style: solid;
@@ -72,8 +72,6 @@ a:visited {
     justify-content: space-around;
     align-items: center;
 }
-
-.nav-pages {}
 
 /* Index page */
 
@@ -469,6 +467,7 @@ OVERLAY STYLES
     align-items: flex-end;
     background-color: whitesmoke;
     width: 40%;
+    margin-left: 15%;
 
 }
 
@@ -500,3 +499,85 @@ OVERLAY STYLES
 .cost-color {
     color: black;
 }
+
+/*-------------------------------------------------------------------------------------------- 
+ABOUT US PAGE 
+----------------------------------------------------------------------------------------------*/
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-p {
+    width: 25%;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: #EEB01F;
+}
+
+.about-back {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 77%;
+    margin: 4em;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*-------------------------------------------------------------------------------------------- 
+RESERVATIONS PAGE
+----------------------------------------------------------------------------------------------*/
+
+    .Meet-The-Dinos {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 23%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-flow: row wrap;
+        padding: 10vw;
+    }
+
+    
+    .Above-The-Lights {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 23%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-flow: row wrap;
+        padding: 10vw;
+    }
+
+    .page-wrapper {
+        
+    }
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------
+MOBILE PAGES 
+----------------------------------------------------------------------------------------------*/
+
+    @media only screen and (max-width: 640px){
+        .The-four-packages {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-flow: row wrap;
+            padding: 5vw;
+        }
+    }
