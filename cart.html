@@ -11,7 +11,6 @@
 <nav class="nav-main">
     <a href="experiences.html">Reservations</a>
     <a href="index.html">Experiences</a>
-    <img class="logo" src="imgs/logo.png" alt="Jurassic Park Main Logo">
     <a href="about.html">About</a>
     <a href="cart.html">Cart</a>
 </nav>
@@ -21,9 +20,10 @@
 
         <section class="personal">
             <h2>Check Out</h2>
-            <p>Name <input type="Name"></p>
-            <p>Email <input type="email" name="" id=""></p>
-            <p>Phone Number <input type="number" name="" id=""></p>
+            <p class="p-size">Name <input type="Name"></p>
+            <p class="p-size">Email <input type="email" name="" id=""></p>
+            <p class="p-size">Phone Number <input type="number" name="" id=""></p>
+            <button class="button2">Jurassic Pay</button>
         </section>
         <section class="cost cost-color">
             <section class="cart">
@@ -69,17 +69,22 @@
 
     </section>
 
+    <section id="packageoverlay">
+        <section id="overlay-content">
+            <section id="overlay-close1" >
+                <i class="overlay-close2">Close <svg xmlns="http://www.w3.org/2000/svg" height="20" width="15" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg></i>
+            </section>
+            <h3>Jurassic Pay</h3>
+            <p>Pin # <input type="Pin #"></p>
+            <p>Password <input type="Password"></p>
+        <section class="overlay-buttons">
+            <button><a href="confirmation.html">Pay Now</a> </button>
+        </section>
+    </section>
+    </section>
 
 </body>
 
-<section class="jurassicpay">
-    <img class="Payicon" src="imgs/" alt="Bobux! Bobux!">
-    <h3>Jurassic Pay</h3>
-    <p>Pin # <input type="Pin #"></p>
-    <p>Password <input type="Password"></p>
-
-    <button><a href="confirmation.html">Pay Now</a> </button>
-</section>
 
 <!-- This is where the actual footer will begin with the direction links. -->
 <footer>
@@ -104,5 +109,7 @@
         </nav>
     </section>
 </footer>
+
+<script src="app.js"></script>
 
 </html>
