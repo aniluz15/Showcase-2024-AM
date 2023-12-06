@@ -81,20 +81,22 @@ button {
 
 .flex {
     display: flex;
-    
+
 }
 
-h1,h2 {
+h1,
+h2 {
     color: white;
     font-size: 40px;
 }
+
 a:visited {
     color: #FFFFFF;
 }
 
 .dining-text1 {
     background-color: rgba(0, 0, 0, 0.5);
-    
+
 }
 
 
@@ -115,6 +117,7 @@ INDEX PAGE
     font-size: 30px;
     width: 39vw;
 }
+
 .h-img2 {
     width: 22vw;
     border-style: solid;
@@ -151,7 +154,7 @@ INDEX PAGE
 /*------------------------------
 END OF DINING BANNER
  -------------------------------*/
- .reviews {
+.reviews {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -236,7 +239,7 @@ h6 {
 /*------------------------------------------------------
  BOTH PAGES 
  -------------------------------------------------------*/
- .both-info {
+.both-info {
     display: flex;
     flex-direction: row;
 }
@@ -257,12 +260,13 @@ h6 {
     margin: 0.5vw;
     padding: 1vw;
 }
- .packages {
+
+.packages {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 1vw;
-    
+
 }
 
 .package1 {
@@ -329,7 +333,7 @@ MEET THE DINO'S PAGE BELOW
 
 .both-img2 {
     width: 30vw;
-    
+
 }
 
 .jurassicdining {
@@ -356,6 +360,7 @@ MEET THE DINO'S PAGE BELOW
     border-radius: 0.5vw;
     margin: 1vw;
 }
+
 /*--------------------------------------------------
 Above the Lights HTML page CSS 
 ---------------------------------------------------*/
@@ -504,7 +509,7 @@ ABOUT US PAGE
 }
 
 .about-p {
-    width: 25%;
+    width: 50%;
     border-style: solid;
     border-width: 0.3em;
     border-color: #EEB01F;
@@ -513,49 +518,49 @@ ABOUT US PAGE
 .about-back {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    width: 77%;
+    padding: 1em;
+    width: 75%;
     margin: 4em;
     flex-direction: column;
     align-items: center;
-
 }
 
 /*-------------------------------------------------------------------------------------------- 
 RESERVATIONS PAGE
 ----------------------------------------------------------------------------------------------*/
 
-    .Meet-The-Dinos {
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 20%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        flex-flow: row wrap;
-        padding: 7vw;
-    }
+.Meet-The-Dinos {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: row wrap;
+    padding: 7vw;
+}
 
-    
-    .Above-The-Lights {
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 20%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        flex-flow: row wrap;
-        padding: 7vw;
-    }
 
-    .candy-wrap {
-        display: flex;
-        justify-content: space-around;
-    }
+.Above-The-Lights {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: row wrap;
+    padding: 7vw;
+}
 
-    
+.candy-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* -------------------------------------------------------------------------------------------
 Confirmation
 ----------------------------------------------------------------------------------------------*/
 
-.confirm-contain { 
+.confirm-contain {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 14em;
     display: flex;
@@ -571,29 +576,142 @@ Confirmation
 MOBILE PAGES 
 ----------------------------------------------------------------------------------------------*/
 
-    @media only screen and (max-width: 640px){
+@media only screen and (max-width: 640px) {
 
-        /* MAIN PAGE */
-        .h-img1 {
-            width: 95vw;
-        }
-
-        .themed-dining {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .p1 {
-            width: 100%;
-            font-size: 14px;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        .reviews {
-            display: none;
-        }
-
+    /* BACKGROUND */
+    body {
+        background-repeat: repeat-y;
     }
+
+    /* MAIN PAGE */
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .h-img2 {
+        width: 97%;
+    }
+
+    .h-img1 {
+        width: 95vw;
+    }
+
+    .themed-dining {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p1 {
+        width: 90%;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .reviews {
+        display: none;
+    }
+
+    .half-main {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 3em;
+        margin-left: 1.5em;
+    }
+
+    .half {
+        display: flex;
+        margin-bottom: 1em;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main-heading {
+        display: flex;
+        flex-direction: column;
+        padding: 1vw;
+    }
+
+    .button1 {
+        width: 19vw;
+        font-size: medium;
+        padding: 0.5em;
+        height: auto;
+    }
+
+    .b-size {
+        font-size: 26px;
+    }
+
+
+
+    /* FOOTER */
+    .bottom {
+        justify-content: space-between;
+    }
+
+    .exper-colum {
+        display: flex;
+        margin-right: 3em;
+        flex-direction: column;
+    }
+
+    .copyright h3 {
+        width: 17vw;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .footerall {
+        margin-left: 3em;
+        width: 31%;
+    }
+
+    /*-------------------------
+        ABOUT US PAGE
+        ---------------------------*/
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-c {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+    .about-p {
+        width: 50%;
+        border-style: solid;
+        border-width: 0.3em;
+        border-color: #EEB01F;
+    }
+
+    .name-mob {
+        font-size: xxx-large;
+    }
+
+    .about-back {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        padding: 1em;
+        width: 75%;
+        margin: 4em;
+        flex-direction: column;
+        align-items: center;
+    }
+}
