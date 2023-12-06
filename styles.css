@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inria+Serif&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inria+Serif:wght@300;400&family=Oswald&display=swap');
 
+
+
+/* --------------------------------------------------------------
+NAV BAR
+----------------------------------------------------------------- */
+.nav0 {
+    font-size: x-large;
+    padding: 1vw;
+
+}
+
+.nav-main {
+    display: flex;
+    height: 7vh;
+    background-color: #EEB01F;
+    border-color: #F8D042;
+    border-style: solid;
+    border-width: 0.5vw;
+    font-size: large;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*---------------------------------------------------------------- 
+TAGS USED ON MULTIPLE PAGES 
+------------------------------------------------------------------*/
+
 :root {
     --golden: #EEB01F;
 }
@@ -9,12 +38,6 @@ body {
     background-image: url(imgs/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.logo {
-    position: absolute;
-    transform: translateY(26px);
-    width: 25vw;
 }
 
 p {
@@ -52,31 +75,32 @@ button {
 .button2 {
     color: white;
     margin: 1vw;
+    width: 10em;
+    font-size: large;
 }
 
+.flex {
+    display: flex;
+    
+}
+
+h1,h2 {
+    color: white;
+    font-size: 40px;
+}
 a:visited {
     color: #FFFFFF;
 }
 
-
-.nav-main {
-    display: flex;
-    height: 7vh;
-    background-color: #EEB01F;
-    border-color: #F8D042;
-    border-style: solid;
-    border-width: 0.5vw;
-    font-size: large;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+.dining-text1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
-/* Index page */
 
-
-/* Themed dining banner(above the fold) under nav bar */
+/*--------------------------------------------------------
+INDEX PAGE
+ ---------------------------------------------------------*/
 .h-img1 {
     width: 50vw;
     border-style: solid;
@@ -84,9 +108,13 @@ a:visited {
     border-width: 0.3vw;
     border-radius: 0.5vw;
     margin: 2vw;
-
 }
 
+.p1 {
+    font-style: white;
+    font-size: 30px;
+    width: 39vw;
+}
 .h-img2 {
     width: 22vw;
     border-style: solid;
@@ -96,114 +124,6 @@ a:visited {
     margin: 1vw;
 }
 
-h1,h2 {
-    color: white;
-    font-size: 40px;
-}
-
-.p1 {
-    font-style: white;
-    font-size: 30px;
-    width: 39vw;
-}
-
-.p2 {
-    font-size: 25px;
-}
-
-.b-size {
-    font-size: 18px;
-}
-
-.dining-text1 {
-
-    background-color: rgba(0, 0, 0, 0.5);
-
-}
-
-.h-img3 {
-    width: 35vw;
-    border-style: solid;
-    border-color: var(--golden);
-    border-width: 0.3vw;
-    border-radius: 0.5vw;
-    margin: 1vw;
-}
-
-.flex {
-    display: flex;
-
-}
-
-.before {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 0.5vw;
-    padding: 1vw;
-}
-
-h5,
-h6 {
-    color: white;
-}
-
-.packages {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1vw;
-
-}
-
-.package1 {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 23%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-li {
-    color: white;
-    font-size: 20px;
-}
-
-.mtd-info {
-    display: flex;
-    flex-direction: row;
-}
-
-.packageimg {
-    border-style: solid;
-    border-color: #EEB01F;
-    border-width: 0.3vw;
-    max-width: 20vw;
-    display: flex;
-    border-radius: 1em;
-    margin: 1vw;
-}
-
-.mtd-img2 {
-    width: 45vw;
-    border-style: solid;
-    border-color: var(--golden);
-    border-width: 0.3vw;
-    border-radius: 0.5vw;
-    margin: 1vw;
-}
-
-.p3 {
-    display: flex;
-    flex-direction: column;
-}
-
-.nav0 {
-    font-size: x-large;
-    border-style: solid;
-    padding: 1vw;
-    border-color: ;
-}
 
 .half-main {
     background-color: rgba(0, 0, 0, 0.5);
@@ -211,25 +131,11 @@ li {
     height: 24vw;
 }
 
-.abt-home {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 48%;
-}
-
 .half {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2vw;
-}
-
-.abt-heading {
-    margin: 1vw;
-}
-
-.flex1 {
-    display: flex;
-    flex-direction: column;
 }
 
 .main-heading {
@@ -242,8 +148,10 @@ li {
     width: 6vw;
 }
 
-/* End of dining banner */
-.reviews {
+/*------------------------------
+END OF DINING BANNER
+ -------------------------------*/
+ .reviews {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -311,7 +219,82 @@ li {
     height: 13vh;
 }
 
-/* Footer section */
+
+.p2 {
+    font-size: 25px;
+}
+
+.b-size {
+    font-size: 18px;
+}
+
+h5,
+h6 {
+    color: white;
+}
+
+/*------------------------------------------------------
+ BOTH PAGES 
+ -------------------------------------------------------*/
+ .both-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.both-img2 {
+    width: 45vw;
+    border-style: solid;
+    border-color: var(--golden);
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    margin: 1vw;
+}
+
+.before {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.5vw;
+    padding: 1vw;
+}
+ .packages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw;
+    
+}
+
+.package1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 23%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+}
+
+
+.packageimg {
+    border-style: solid;
+    border-color: #EEB01F;
+    border-width: 0.3vw;
+    max-width: 20vw;
+    display: flex;
+    border-radius: 1em;
+    margin: 1vw;
+}
+
+
+
+
+/*----------------------------------------------------------------
+FOOTER SECTION
+-----------------------------------------------------------------*/
 
 .bottom {
     display: flex;
@@ -322,7 +305,6 @@ li {
     border-color: #F8D042;
 }
 
-.footerall {}
 
 .copyright h3 {
     width: 17vw;
@@ -330,15 +312,24 @@ li {
 
 
 
-/* Meet the dino html page below */
+/*-------------------------------------------------------
+MEET THE DINO'S PAGE BELOW
+--------------------------------------------------------*/
+
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .mtd-img1 {
     width: 30vw;
 }
 
-.mtd-img2 {
+.both-img2 {
     width: 30vw;
-
+    
 }
 
 .jurassicdining {
@@ -357,7 +348,17 @@ li {
     width: 20vw;
 }
 
-/* Above the Lights HTML page CSS */
+.h-img3 {
+    width: 35vw;
+    border-style: solid;
+    border-color: var(--golden);
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    margin: 1vw;
+}
+/*--------------------------------------------------
+Above the Lights HTML page CSS 
+---------------------------------------------------*/
 .prehistoricimg {
     width: 20vw;
 }
@@ -370,25 +371,6 @@ li {
     width: 20vw;
 }
 
-.ul {
-    color: #FFFFFF;
-
-}
-
-.The-four-packages {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-flow: row wrap;
-    padding: 5vw;
-}
-
-.Before-Ya-Go {
-    padding: 0.5vw;
-}
-
-.heightimg {
-    width: 20vw;
-}
 
 .li {
     color: #FFFFFF;
@@ -460,6 +442,8 @@ OVERLAY STYLES
 .cart-background {
     display: flex;
     flex-direction: row;
+    padding: 2em;
+
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -467,7 +451,7 @@ OVERLAY STYLES
     align-items: flex-end;
     background-color: whitesmoke;
     width: 40%;
-    margin-left: 15%;
+    margin-left: 45%;
 
 }
 
@@ -498,6 +482,10 @@ OVERLAY STYLES
 
 .cost-color {
     color: black;
+}
+
+.p-size {
+    font-size: xx-large;
 }
 
 /*-------------------------------------------------------------------------------------------- 
@@ -557,18 +545,19 @@ RESERVATIONS PAGE
         padding: 7vw;
     }
 
-    .page-wrapper {
+    .candy-wrap {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
     }
 
+    
 /* -------------------------------------------------------------------------------------------
 Confirmation
 ----------------------------------------------------------------------------------------------*/
 
-.confirm-contain {
+.confirm-contain { 
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 12em;
+    padding: 14em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -583,5 +572,28 @@ MOBILE PAGES
 ----------------------------------------------------------------------------------------------*/
 
     @media only screen and (max-width: 640px){
+
+        /* MAIN PAGE */
+        .h-img1 {
+            width: 95vw;
+        }
+
+        .themed-dining {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .p1 {
+            width: 100%;
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        .reviews {
+            display: none;
+        }
 
     }
