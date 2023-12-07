@@ -361,6 +361,10 @@ MEET THE DINO'S PAGE BELOW
     margin: 1vw;
 }
 
+.packagesmobile {
+    display: none;
+}
+
 /*--------------------------------------------------
 Above the Lights HTML page CSS 
 ---------------------------------------------------*/
@@ -447,7 +451,7 @@ OVERLAY STYLES
 .cart-background {
     display: flex;
     flex-direction: row;
-    padding: 2em;
+    padding: 1em;
 
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -483,6 +487,10 @@ OVERLAY STYLES
     display: flex;
     justify-content: space-between;
     margin-left: 11em;
+}
+
+.cost-div {
+    color: black;
 }
 
 .cost-color {
@@ -748,4 +756,144 @@ MOBILE PAGES
         width: auto;
         margin: 1em;
     }
+
+    /* MEET THE DINOS PAGE */
+
+    .h-img3 {
+        width: 90%;
+        margin-top: 1em;
+        margin-left: 2em;
+    }
+
+    .both-info {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1em;
+    }
+
+    .both-img2 {
+        display: none;
+    }
+    
+    .packages {
+        display: none;
+    }
+
+    .packageimg {
+        display: flex;
+        margin-left: em;
+    }
+    
+    .packagesmobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .collapsible {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 2em;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 50%;
+        border: solid;
+        border-color: #EEB01F;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-style: solid;
+        border-color: #EEB01F;
+      }
+      
+      .content {
+        padding: 0 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .package-title {
+        display: flex;
+        justify-content: center;
+      }
+    /*CART PAGE!!!!!*/
+
+    .cart {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .cart-background {
+        display: flex;
+        flex-direction: column;
+
+    
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .cost {
+        align-items: flex-end;
+        background-color: whitesmoke;
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+    }
+    
+    .guest-dinos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .guest-above {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .cost-mobdiv {
+        color: black;
+    }
+
+.cost-div{
+    display: none;
 }
+
+
+    .per-ticket {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-left: 5em;
+    }
+    
+    .package-cost {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11em;
+    }
+    
+    
+    .total-cost {
+       margin-left: 60%;
+    }
+
+    .button2 {
+        color: white;
+        margin: 1vw;
+        width: 7em;
+        height: 1.5em;
+        font-size: X-large;
+    }
