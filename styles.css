@@ -642,14 +642,14 @@ MOBILE PAGES
     }
 
     .button1 {
-        width: 19vw;
+        width: 15vw;
         font-size: medium;
         padding: 0.5em;
         height: auto;
     }
 
     .b-size {
-        font-size: 26px;
+        font-size: medium;
     }
 
 
@@ -713,5 +713,39 @@ MOBILE PAGES
         margin: 4em;
         flex-direction: column;
         align-items: center;
+    }
+
+    /* RESERVATION PAGE */
+     .candy-wrap {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .Meet-The-Dinos {
+        width: auto;
+        margin: 1em;
+     }
+
+     .packageimg {
+        border-style: solid;
+        border-color: #EEB01F;
+        border-width: 0.3vw;
+        max-width: 70vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 1em;
+        border-radius: 1em;
+    }
+
+    .Select-button2 {
+        width: auto;
+        height: auto;
+        font-size: large;
+        padding: 0.5em;
+    }
+
+    .Above-The-Lights {
+        width: auto;
+        margin: 1em;
     }
 }
