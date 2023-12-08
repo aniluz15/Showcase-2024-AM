@@ -152,7 +152,13 @@ INDEX PAGE
 }
 
 .button1 {
-    width: 6vw;
+    border-style: solid;
+    border-color: #EEB01F;
+    background-color: #5C443A;
+    display: flex;
+    justify-content: center;
+    width: 7vw;
+    padding: 0.5em;
 }
 
 /*------------------------------
@@ -445,6 +451,18 @@ OVERLAY STYLES
     color: #FFFFFF;
 }
 
+.overlay-buttons {
+    border-style: solid;
+    border-color: #EEB01F;
+    background-color: #5C443A;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    width: auto;
+    height: auto;
+}
+
 
 /* ---------------------------------------------
  CART PAGE
@@ -732,17 +750,17 @@ MOBILE PAGES
     }
 
     /* RESERVATION PAGE */
-     .candy-wrap {
+    .candy-wrap {
         display: flex;
         flex-direction: column;
-     }
+    }
 
-     .Meet-The-Dinos {
+    .Meet-The-Dinos {
         width: auto;
         margin: 1em;
-     }
+    }
 
-     .packageimg {
+    .packageimg {
         border-style: solid;
         border-color: #EEB01F;
         border-width: 0.3vw;
@@ -773,6 +791,7 @@ MOBILE PAGES
         font-size: x-large;
         color: #FFFFFF;
     }
+
     .h-img3 {
         width: 90%;
         margin-top: 1em;
@@ -788,7 +807,7 @@ MOBILE PAGES
     .both-img2 {
         display: none;
     }
-    
+
     .packages {
         display: none;
     }
@@ -797,7 +816,7 @@ MOBILE PAGES
         display: flex;
         margin-left: em;
     }
-    
+
     .packagesmobile {
         display: flex;
         flex-direction: column;
@@ -819,15 +838,16 @@ MOBILE PAGES
         text-align: left;
         outline: none;
         font-size: 15px;
-      }
-      
-      .active, .collapsible:hover {
+    }
+
+    .active,
+    .collapsible:hover {
         background-color: rgba(0, 0, 0, 0.5);
         border-style: solid;
         border-color: #EEB01F;
-      }
-      
-      .content {
+    }
+
+    .content {
         padding: 0 18px;
         display: flex;
         flex-direction: column;
@@ -835,12 +855,13 @@ MOBILE PAGES
         overflow: hidden;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.5);
-      }
+    }
 
-      .package-title {
+    .package-title {
         display: flex;
         justify-content: center;
-      }
+    }
+
     /*CART PAGE!!!!!*/
 
     .cart {
@@ -848,15 +869,15 @@ MOBILE PAGES
         flex-direction: row;
         justify-content: space-around;
     }
-    
+
     .cart-background {
         display: flex;
         flex-direction: column-reverse;
 
-    
+
         background-color: rgba(0, 0, 0, 0.5);
     }
-    
+
     .cost {
         align-items: flex-end;
         background-color: whitesmoke;
@@ -864,26 +885,26 @@ MOBILE PAGES
         margin: 0;
         margin-top: 2em;
     }
-    
+
     .guest-dinos {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    
+
     .guest-above {
         display: flex;
         flex-direction: row;
-    
+
     }
-    
+
     .cost-mobdiv {
         color: black;
     }
 
-.cost-div{
-    display: none;
-}
+    .cost-div {
+        display: none;
+    }
 
 
     .per-ticket {
@@ -892,16 +913,16 @@ MOBILE PAGES
         flex-direction: row;
         margin-left: 5em;
     }
-    
+
     .package-cost {
         display: flex;
         justify-content: space-between;
         margin-left: 11em;
     }
-    
-    
+
+
     .total-cost {
-       margin-left: 60%;
+        margin-left: 60%;
     }
 
     .button2 {
@@ -918,9 +939,18 @@ MOBILE PAGES
     }
 
     .overlay-buttons {
+        border-style: solid;
+        border-color: #EEB01F;
+        background-color: #5C443A;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1em;
+        padding: 0.5em;
         width: auto;
         height: auto;
     }
-    
+
+}
+
 
 }
