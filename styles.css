@@ -99,6 +99,10 @@ a:visited {
 
 }
 
+a:visited {
+    color: #FFFFFF;
+}
+
 
 /*--------------------------------------------------------
 INDEX PAGE
@@ -437,6 +441,10 @@ OVERLAY STYLES
     height: 25%
 }
 
+.button3 {
+    color: #FFFFFF;
+}
+
 
 /* ---------------------------------------------
  CART PAGE
@@ -759,6 +767,12 @@ MOBILE PAGES
 
     /* MEET THE DINOS PAGE */
 
+    .button3 {
+        width: auto;
+        height: auto;
+        font-size: x-large;
+        color: #FFFFFF;
+    }
     .h-img3 {
         width: 90%;
         margin-top: 1em;
@@ -837,7 +851,7 @@ MOBILE PAGES
     
     .cart-background {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
     
         background-color: rgba(0, 0, 0, 0.5);
@@ -894,6 +908,19 @@ MOBILE PAGES
         color: white;
         margin: 1vw;
         width: 7em;
-        height: 1.5em;
-        font-size: X-large;
+        height: auto;
+        font-size: large;
     }
+
+    .over1 {
+        width: auto;
+        height: auto;
+    }
+
+    .overlay-buttons {
+        width: auto;
+        height: auto;
+    }
+    
+
+}
