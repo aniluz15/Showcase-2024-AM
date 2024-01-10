@@ -8,12 +8,25 @@
     <title>Which Experience Would You Like to Attend?</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<nav class="nav-main">
-    <a href="experiences.html">Reservations</a>
-    <a href="index.html">Experiences</a>
-    <a href="about.html">About</a>
-    <a href="cart.html">Cart</a>
-</nav>
+<section class="nav-main1">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="nav0" href="experiences.html">Reservations</a>
+        <a class="nav0" href="index.html">Experiences</a>
+        <a class="nav0" href="about.html">About</a>
+        <a class="nav0" href="cart.html">Cart</a>
+      </div>
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Jurassic Park Themed Dining</span>
+    </section>
+<section class="nav-main">
+    <a class="nav0" href="experiences.html">Reservations</a>
+    <a class="nav0" href="index.html">Experiences</a>
+    <a class="nav0" href="about.html">About</a>
+    <a class="nav0" href="cart.html">Cart</a>
+</section>
+
 
 
 <section class="candy-wrap">
@@ -83,5 +96,15 @@
     </section>
 </footer>
 </body>
+<script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </html>
